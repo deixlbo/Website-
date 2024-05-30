@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROGRAMMING LANGUAGE KNOWLEDGE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body background="images/bgimage.png"> 
+    <header>
+        <a id="back-button" href="javascript:history.back()">Back</a>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="about-us.html">About us</a>
+        <a href="contact.html">Contacts</a>
+      </nav>
+        
+    </header>
+    <div class="wrapper">
+      <div class="wrapper">
+    <img src="https://img.hotimg.com/images-244324b5badf31356.png" alt="images-244324b5badf31356.png" border="0" />
+
+        <div class="text-box">
+          <h1>Erlang Language Overview</h1>
+
+    <h2>History and Evolution:</h2>
+    <p>Erlang is a programming language developed by Ericsson in the 1980s for telecommunication applications. It was designed to handle concurrent, distributed, and fault-tolerant systems. Erlang was originally developed to address the challenges of building scalable and reliable telecommunication systems, and it has since gained popularity in various industries.</p>
+
+    <h2>Key Features:</h2>
+    <ul>
+        <li>Concurrency: Erlang provides lightweight, isolated processes that communicate via message passing, making it easy to build highly concurrent systems.</li>
+        <li>Fault Tolerance: Erlang is built with fault tolerance in mind, allowing applications to recover from errors without affecting the entire system.</li>
+        <li>Distributed Computing: Erlang supports distributed computing, enabling developers to build systems that run across multiple nodes.</li>
+        <li>Hot Code Swapping: Erlang allows code to be updated on running systems without downtime or interruption to service.</li>
+        <li>Pattern Matching: Erlang features powerful pattern matching capabilities, making it expressive and concise for handling complex data structures.</li>
+    </ul>
+
+    <h2>Development Ecosystem:</h2>
+    <p>The Erlang development ecosystem includes various tools and libraries:</p>
+    <ul>
+        <li>Erlang/OTP: The Erlang/OTP platform provides a set of libraries, middleware, and tools for building scalable and fault-tolerant applications.</li>
+        <li>Rebar3: A build tool for Erlang projects, providing dependency management, compilation, and testing features.</li>
+        <li>RabbitMQ: A message broker that implements the Advanced Message Queuing Protocol (AMQP), built with Erlang.</li>
+    </ul>
+
+    <h2>Application Areas:</h2>
+    <ul>
+        <li>Telecommunications: Erlang is widely used in the telecommunications industry for building telephony switches, voice over IP (VoIP) systems, and messaging platforms.</li>
+        <li>Distributed Systems: Erlang's support for concurrency and fault tolerance makes it suitable for building distributed systems, such as distributed databases and real-time communication platforms.</li>
+        <li>Financial Services: Erlang is used in financial services for building high-throughput, low-latency trading systems and risk management platforms.</li>
+    </ul>
+
+    <h2>Community Resources:</h2>
+    <ul>
+        <li>Erlang.org: The official website for Erlang, providing documentation, tutorials, and resources for learning Erlang.</li>
+        <li>Erlang Central: An online community for Erlang developers, featuring forums, articles, and job postings.</li>
+        <li>GitHub: Many Erlang projects and libraries are hosted on GitHub, providing resources, documentation, and collaboration opportunities.</li>
+    </ul>
+
+    <h2>Example Code Snippet (Hello World):</h2>
+    <pre><code>
+-module(hello).
+-export([world/0]).
+
+world() -> 
+    io:fwrite("Hello, world!~n").
+    </code></pre>
+
+    <h2>Conclusion:</h2>
+    <p>Erlang's focus on concurrency, fault tolerance, and distributed computing makes it a powerful language for building highly reliable and scalable systems. Its rich development ecosystem, coupled with strong community support and industry adoption, solidifies Erlang's position as a leading language for building mission-critical applications.</p>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

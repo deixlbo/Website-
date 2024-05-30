@@ -1,0 +1,306 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(249, 241, 246);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('images/bgimage.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center center;
+  }
+
+
+
+header {
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #330066;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  background-color: #330066;
+  padding: 1.5em 0 1.5em 5em;
+  transition: background-color 0.3s ease;
+}
+
+nav a {
+  color: rgb(212, 206, 209);
+  text-decoration: none;
+  margin: 1em;
+  font-size: 1.3em;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #6600cc;
+}
+
+
+
+img {
+  max-width: 220px;
+  float:inline-end;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  
+}
+
+
+
+.content {
+  margin-top: 5%;
+  max-width: 1000px;
+  font-size: 24px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color: #fff;
+  background-image: linear-gradient(45deg, #df4881, #c430d7);
+  font-size: 14px;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+}
+
+.wrapper {
+  margin: 150px auto;
+  width: 90%;
+}
+
+.text-box {
+  color: #fff;
+}
+
+.text-box h2 {
+  font-size: 42px;
+}
+
+.text-box p {
+  font-size: 28px;
+}
+
+.text-box ul {
+  font-size: 28px;
+}
+.text-box pre {
+  font-size: 28px;
+}
+
+header.scrolled {
+    background-color: #660033;
+}
+header.scrolled nav {
+  background-color: #660033; 
+}
+.row {
+  margin-top: 10%;
+  max-width: 5000px;
+  display: flex;
+  height: 100%;
+  justify-content: center ;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.col{
+  display: flex;
+  justify-content: center;
+  flex: 0 0 20%;
+  margin: 15px;
+  
+}
+  .card {
+    flex: 0 0 80%; 
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 50px 70px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+  
+transition: transform 0.5s;
+}
+.card1{
+  background-image: url(images/pic1.png);
+}
+.card2{
+  background-image: url(https://img.hotimg.com/ruby.png);
+}
+.card3{
+  background-image: url(https://img.hotimg.com/swift.png);
+}
+.card4{
+  background-image: url(https://img.hotimg.com/GO.jpeg);
+}
+.card5{
+  background-image: url(https://img.hotimg.com/php.png);
+}
+.card6{
+  background-image: url(https://img.hotimg.com/1869px-Python-logo-notext.svg.png);
+}
+.card7{
+  background-image: url(https://img.hotimg.com/received_777156970512162.jpeg);
+}
+.card8{
+  background-image: url(https://img.hotimg.com/received_392649010182412.jpeg);
+}
+.card9{
+  background-image: url(https://img.hotimg.com/received_422963206878746.jpeg);
+}
+.card10{
+  background-image: url(https://img.hotimg.com/received_1369116590395711.jpeg);
+}
+.card11{
+  background-image: url(https://img.hotimg.com/received_1213525426298307.jpeg);
+}
+.card12{
+  background-image: url(https://avatars.githubusercontent.com/u/1446536?s=200&v=4.png);
+}
+.card13{
+  background-image: url(https://img.hotimg.com/received_780033383514045.jpeg);
+}
+.card14{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR_qTGCHTzUDIHak69BE8VAMvc45SuZh7lqxuWw3KniA&s);
+}
+.card15{
+  background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*lS6lR5Avtac0S-EiXWlygA.jpeg);
+}
+.card16{
+  background-image: url(https://img.hotimg.com/downloada8873027d9b9b05c.png);
+}
+.card17{
+  background-image: url(https://avatars.githubusercontent.com/u/1609975?s=200&v=4.png);
+}
+.card18{
+  background-image: url(https://img.hotimg.com/download-2429db7a053f7528e.png);
+}
+.card19{
+  background-image: url(https://img.hotimg.com/images577b140b02c33219.png);
+}
+.card20{
+  background-image: url(https://miro.medium.com/v2/resize:fit:800/0*eUU8qhr_5t-l5N83.png);
+}
+.card21{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Haskell-Logo.svg/1280px-Haskell-Logo.svg.png);
+}
+.card22{
+  background-image: url(https://img.hotimg.com/images-1354f1a9d9f8a1666.png);
+}
+.card23{
+  background-image: url(https://img.hotimg.com/images-244324b5badf31356.png);
+}
+.card24{
+  background-image: url(https://img.hotimg.com/images-308edf308bcd5ff3e.png);
+}
+.card25{
+  background-image: url(https://img.hotimg.com/download-4b12daba0b163e22b.png);
+}
+.card26{
+  background-image: url(https://i0.wp.com/securitygrind.com/wp-content/uploads/2021/04/solidity-feat.jpg?fit=233%2C250&ssl=1);
+}
+.card27{
+  background-image: url(https://img.hotimg.com/download-6da60c196a7001053.png);
+}
+.card28{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/695px-C_Programming_Language.svg.png);
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+
+@media (min-width: 576px) { .card { min-width: 200px; } }
+
+
+@media screen and (max-width: 599px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (min-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+.card-button {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.card-button:hover {
+  background-color: none;
+}
+.card-link {
+  display: block;
+  width: 100%; 
+  height: 100%; 
+  text-decoration: none;
+}
+
+  #back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    background-color:  #660033;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+#back-button:hover {
+    background-color: #883f64;
+} 
+a{
+  color: #c430d7;
+}
+
+a:hover {
+  color: red;
+}
